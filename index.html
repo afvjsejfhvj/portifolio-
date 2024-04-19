@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+   
+   <style>
+   
+    .exemplo_1 {
+    cursor:crosshair;
+    width: 100%;
+    }
+
+    .exemplo_2 {   
+    cursor:grab;   
+    }
+    
+    *{
+        margin: 5;
+        padding: 5;
+        font-family: geneva;
+    }
+    body{
+        background-color: rgba(255, 255, 255, 0.863)
+    }
+    hgroup{
+
+        display:top;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: rgba(223, 223, 223, 0.986);
+    }
+    header{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        padding-inline-start: 960px;
+
+    }
+    header ul{
+        display:flex;
+        gap: 30px;
+        list-style: none;
+    }
+    header a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    .section{
+        border-bottom: 5px solid white;
+        display: flex;
+        padding: 15px 20px;
+    }
+    .direita img{
+        width: 300px;
+        box-shadow: 15px 15px 15px;
+        border-radius: 10%;
+    }
+    .meio{
+        text-align:center;      
+        width: 100%;
+        padding: 1px 70px;
+        background-color: rgba(223, 223, 223, 0.986)
+    }
+    .projeto{
+        width: 100%;
+    }
+    .esquerda{
+        width: 100%;
+        padding: 260px;
+    }
+    .exemplo_3{
+        cursor:nesw-resize;
+    }
+    
+    </style>
+</head>
+
+
+<body>
+    <main>
+        <div class="exemplo_1">
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#logo">logo</a></li>
+                    <li><a href="#home"> home</a></li>
+                    <li><a href="#sobre">sobre mim</a></li>
+                    <li class="dropdown"> 
+                        <details> <summary>Projetos</summary>
+                       
+                            <a href="#1trimestre">1° trimestre</a> <br>
+                            <a href="#2trimestre">2° trimestre</a> <br>
+                            <a href="#3trimestre">3° trimestre</a>
+                    </details>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <hgroup>
+            <div class="section" id="logo">
+                <div class="top">
+                    <div class="logo">
+                         <p>Mateus</p>
+                    </div>
+                </div>
+        </hgroup>
+        
+        <div class="section" id="home">
+            <div class="esquerda">
+                <h1>Bem-vindo</h1>
+                <p> Esse é meu Portifólio</p>
+                <br>
+            </div>
+            <div class="exemplo_2">
+                <div class="direita">
+                    <img src="download (4).jfif" alt="">
+                </div>
+            </div>
+        </div>
+            
+         
+    <div class="section" id="sobre">
+        <div class="meio">
+            <h1>Sobre mim</h1>
+            <p>Nome: Mateus Müller Biscaro</p>
+            <p>Idade: 15</p>
+            <p>Instituição: Sesi Senai</p>
+            <p>Turma: 2B</p>
+            <br>
+        </div>
+    </div>
+
+    <div class="section" id="1trimestre">
+        <div class="primeiro">
+            <h1>Projetos</h1>
+            <h2>1° Trimestre.</h2>
+            <br>
+                <embed src="index.pdf" type="application/pdf" width="500px" height="250px">    
+                <P><legend>Trabalho para criar um pc pela pichau.</legend></P>
+           
+                <embed src="Atividade de Lógica.pdf" type="application/pdf" width="500px" height="250px">
+                <p><legend>Atividade sobre tabela verdade.</legend></p>
+        </div>
+    </div>
+
+    <div class="section" id="2trimestre">
+        <div class="2trimestre">
+            <h2>2° Trimestre</h2>
+            <p>nada</p>
+        </div>
+    </div>
+    <div class="section" id="3trimestre">
+        <div class="3trimestre">
+            <h2>3° Trimestre</h2>
+            <p>nada</p>
+
+        </div>
+    </div>
+    
+        </div>
+    </main>
+</body>
+</html>

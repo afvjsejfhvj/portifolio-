@@ -1,0 +1,38 @@
+  <main>
+        <header>
+            <div class="logo">
+                <p>sem logo</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre mim">sobre mim</a></li>
+                    <li><a href="#projetos"> projetos</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="section" id="#sobre mim"> 
+        <div class="meio">
+
+        </div>
+    </div>
+
+    <div class="section" id="#projetos"> 
+        <div class="meio">
+
+        </div>
+    </div>
+
+    </main>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#logo">logo</a></li>
+                <li><a href="#home"> home</a></li>
+                <li><a href="#sobre">sobre mim</a></li>
+                <li class="dropdown"> 
+                    <a href="#" class="content-dropdown" role="button" data-toogle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
